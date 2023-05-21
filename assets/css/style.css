@@ -1,0 +1,329 @@
+/* public */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Merriweather:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather:ital,wght@1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.clrfix{
+    clear: both;
+}
+
+/* start header */
+.header{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+}
+.overlay{
+    background-color:rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 30px;
+}
+.header .navbar .logo{
+    float: left;
+    width: 40%;
+}
+.header .navbar .nav{
+    float: right;
+    width: 60%;
+    padding-top: 20px;
+}
+
+
+.header .navbar .nav {
+    float: right;
+    width: 60%;
+    padding-top: 20px;
+}
+
+
+.header .nav .list-item{
+    display: inline-block;
+}
+.header .nav .list-item a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header-content{
+    padding-top: 40px;
+}
+/*  الكود التالي مهم اعرفه وفي سؤال سألته للأستاذ طارق برضو لازم اعرفه*/
+.header-content img{
+    width: 27%;
+}
+.header h1{
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.header p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+   
+}
+.btn-learn{
+    background-color: #c1ab84;
+    color: #fff;
+    margin-right: 20px;
+}
+.btn-learn:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+/* end header */
+
+/* start about */
+.about{
+    padding-top: 90px;
+}
+.about-img{
+    float: left;
+    width: 40%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-content{
+    float: left;
+    width: 60%;
+    text-align: center;
+    padding-top: 60px;
+}
+.about-content h2{
+    font-size: 36px;
+    font-weight: 400;
+    color: #253048;
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+.about-content h3{
+    font-size: 28px;
+    font-family: "Dancing Script";
+    font-weight: normal;
+    color: #c1ab84 ;
+    margin-bottom: 20px;
+
+}
+.about-content p{
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    /* background-color:blue; */
+    width: 94%;
+    text-align: left;
+    padding-left: 124px;
+}
+.about-content ul li{
+    width: 60%;
+    overflow: hidden;
+    margin-left: 124px;
+    /* float: left; */
+}
+.about-content ul li i{
+    background-color: #c1ab84;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;  /* هاي عشان في حالة ما اجى الرمز بالنص من ناحية العرض */
+    margin-top: 20px;
+    font-size: 20px;
+    float: left;
+}
+.about-content ul li span{
+    float: left;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+/* end about */
+
+/* start reviewrs */
+.reviewers{
+    background-color: #f8f8f8;
+    padding-top: 100px;
+    height: 80vh;
+}
+.reviewers-content{
+    float: left;
+    width: 60%;
+}
+.reviewers-content h2{
+    color: #253048;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+}
+.reviewers-content h3{
+    margin-top: 10px;
+    color: #c1ab84;
+    font-family: "Dancing Script";
+    font-size: 28px;
+    font-weight: 400;
+    text-align: left;
+}
+.reviewers-content p{
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.reviewers-content i{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    color: #c1ab84;
+}
+.reviewers-img{
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+}
+.reviewers-img img{
+    width: 130%;
+}
+/* end reviewrs */
+
+/* start cover */
+.cover{
+    background-image: url('../img/shutterstock_280369721.jpg');
+    height: 50vh;
+    /* padding: 200px; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* end cover */
+
+/* start footer */
+footer {
+    background-color: #253048;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #c1ab84;
+    text-decoration: none;
+  }
+  
+  /* end footer */
+  
+
+
+
+  /* Responsive Styles */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .header h1 {
+      font-size: 40px;
+    }
+  
+    .header p {
+      font-size: 24px;
+    }
+  
+    .about-img,
+    .about-content {
+      width: 100%;
+      float: none;
+    }
+  
+    .about-content h2,
+    .about-content h3,
+    .about-content p {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .about-content ul li {
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .reviewers-content,
+    .reviewers-img {
+      width: 100%;
+      float: none;
+      text-align: center;
+    }
+  
+    .reviewers-content h2,
+    .reviewers-content h3,
+    .reviewers-content p {
+      text-align: center;
+    }
+  
+    .reviewers-content i {
+      margin-right: 0;
+    }
+  
+    .reviewers-img img {
+      width: 100%;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 1025px) {
+    .container {
+      width: 70%;
+    }
+  }
+  
+
+
+
